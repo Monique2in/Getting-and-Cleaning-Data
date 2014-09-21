@@ -29,7 +29,7 @@ These signals were used to estimate variables of the feature vector for each pat
 * fBodyGyroMag
 * fBodyGyroJerkMag
 
-The run_analysis.R script performs the following steps to clean the data:
+The run_analysis.R script performs the following steps to clean the data:  
 1. Reads X_train.txt, y_train.txt and subject_train.txt and stores them in trainData, trainLabel and trainSubject variables respectively.  
 2. Reads X_test.txt, y_test.txt and subject_test.txt and stores them in testData, testLabel and testSubject variables respectively.  
 3. Merges the training and test data into mergeData, mergeLabel and mergeSubject variables.  
