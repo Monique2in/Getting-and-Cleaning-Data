@@ -11,8 +11,8 @@ The features selected for this database come from the accelerometer and gyroscop
 
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
-*tBodyAcc-XYZ
-*tGravityAcc-XYZ
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
 * tBodyAccJerk-XYZ
 * tBodyGyro-XYZ
 * tBodyGyroJerk-XYZ
@@ -30,15 +30,15 @@ These signals were used to estimate variables of the feature vector for each pat
 * fBodyGyroJerkMag
 
 The run_analysis.R script performs the following steps to clean the data:
-1. Reads X_train.txt, y_train.txt and subject_train.txt and stores them in trainData, trainLabel and trainSubject variables respectively.
-2. Reads X_test.txt, y_test.txt and subject_test.txt and stores them in testData, testLabel and testSubject variables respectively.
-3. Merges the training and test data into mergeData, mergeLabel and mergeSubject variables.
-4. Reads features.txt and selects only features which include an observation Mean (mean) or Standard Deviation (std). 
-5. Labels activities with with descriptive labels found in activity_labels.txt
-6. Cleans data names to readable variable descriptors.
-7. Merges data with Subject and Activity labels.
-8. Writes the clean data to a text file merged_data.txt
-9. Uses reshape2 library and melt function to clean data by Activity and Subject labels.
-10. Uses dcast function to cast molten data frame into a data frame.
-11. Writes tidy data to text file averages_data_final.txt
-**=> Outcome: Creates a data frame that displats the average for each selected features broken down by each Subject for each Activity. **
+1. Reads X_train.txt, y_train.txt and subject_train.txt and stores them in trainData, trainLabel and trainSubject variables respectively.  
+2. Reads X_test.txt, y_test.txt and subject_test.txt and stores them in testData, testLabel and testSubject variables respectively.  
+3. Merges the training and test data into mergeData, mergeLabel and mergeSubject variables.  
+4. Reads features.txt and selects only features which include an observation Mean (mean) or Standard Deviation (std).   
+5. Labels activities with with descriptive labels found in activity_labels.txt  
+6. Cleans data names to readable variable descriptors.  
+7. Merges data with Subject and Activity labels.  
+8. Writes the clean data to a text file merged_data.txt  
+9. Uses reshape2 library and melt function to clean data by Activity and Subject labels.  
+10. Uses dcast function to cast molten data frame into a data frame.  
+11. Writes tidy data to text file averages_data_final.txt  
+=> Outcome: Creates a data frame that displats the average for each selected features broken down by each Subject for each Activity.
