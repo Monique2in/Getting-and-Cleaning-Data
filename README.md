@@ -15,8 +15,11 @@ The purpose of this project is to collect, work with and clean a data set relate
     - merged_data.txt : contains a data frame with selected data for features pertaining to mean and standard deviation.
     - averages_data_final.txt: contains a data frame with averages for features sorted by Activity and Subject.
 * Read the file into R using 
-    - data <- read.table("averages_data_final.txt") 
-    - head(data) ## To view the first few rows
+```
+data <- read.table("averages_data_final.txt") 
+head(data) ## To view the first few rows
+```
+
 
 In order to obtain the average of each variable for each activity and each subject, 
 the data frame contains 180 rows (6 activities * 30 subjects) and 66 columns representing 
