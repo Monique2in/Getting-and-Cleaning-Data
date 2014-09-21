@@ -12,7 +12,7 @@ Place the r script run_analysis.R in the working directory.
 
 Use source(run_analysis.R) in R.
 Two output files will be generated in the working directory:
-    merged_data.txt : contains a data frame with selected data for features pertaining to mean and standard deviation.
+    ***merged_data.txt : contains a data frame with selected data for features pertaining to mean and standard deviation.
     averages_data_final.txt: contains a data frame with averages for features sorted by Activity and Subject.
 Read the file into R using 
   data <- read.table("averages_data_final.txt") 
