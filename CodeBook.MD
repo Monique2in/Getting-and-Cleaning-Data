@@ -41,4 +41,4 @@ The run_analysis.R script performs the following steps to clean the data:
 9. Uses reshape2 library and melt function to clean data by Activity and Subject labels.  
 10. Uses dcast function to cast molten data frame into a data frame.  
 11. Writes tidy data to text file averages_data_final.txt  
-=> Outcome: Creates a data frame that displats the average for each selected features broken down by each Subject for each Activity.
+=> Outcome: Creates a data frame that displays the average for each selected features broken down by each Subject for each Activity.
